@@ -49,9 +49,9 @@ public class RandomPlacement : MonoBehaviour
         string jsonString = JsonUtility.ToJson(save);
         //this uses the built in file handling to create a text file persistentDataPath means 
         //we always have the same path and are guaranteed a space to save 
-        File.WriteAllText(Application.persistentDataPath + "/typeName.save", jsonString);
+        File.WriteAllText(Application.persistentDataPath + "/"+ typeName + ".save", jsonString);
 
-        Debug.Log("Saving as JSON: " + jsonString + Application.persistentDataPath + "/typeName.save");
+        Debug.Log("Saving as JSON: " + jsonString + Application.persistentDataPath + "/" + typeName + ".save");
     }
 
     [ContextMenu("Load")]
@@ -59,10 +59,10 @@ public class RandomPlacement : MonoBehaviour
     {
        Time.timeScale = 1;
         //check if the save file exists could use this above to prompt
-        if (File.Exists(Application.persistentDataPath + "/typeName.save"))
+        if (File.Exists(Application.persistentDataPath + "/" + typeName + ".save"))
         {
             //find the file and load it into memory
-            string jsonString = File.ReadAllText(Application.persistentDataPath + "/typeName.save");
+            string jsonString = File.ReadAllText(Application.persistentDataPath + "/" + typeName + ".save");
             //use the JSONUtility to convert back from JSON to string
             SaveGame save = JsonUtility.FromJson<SaveGame>(jsonString);
 
