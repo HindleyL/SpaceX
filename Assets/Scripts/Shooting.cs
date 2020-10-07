@@ -10,6 +10,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //shoot when spacebar is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
