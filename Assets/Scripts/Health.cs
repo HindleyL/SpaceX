@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class Health : MonoBehaviour
 {
     public int health = 50;
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     {
 
     }
-    public void OnDamage(int bulletDamage)
+    public virtual void OnDamage(int bulletDamage)
     {
         //making damage happen at rate of 5 per hit - 5 from health
         health=health-bulletDamage;

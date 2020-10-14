@@ -102,13 +102,14 @@
     <Compile Include="Assets\3rd Party Assets\dreamlo\dreamloPromoCode.cs" />
     <Compile Include="Assets\Scripts\AIScripts.cs" />
     <Compile Include="Assets\Scripts\AddInvertedMeshCollider.cs" />
+    <Compile Include="Assets\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\GameEvent.cs" />
     <Compile Include="Assets\Scripts\GameEventListener.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Planet.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerOptions.cs" />
     <Compile Include="Assets\Scripts\RandomPlacement.cs" />
     <Compile Include="Assets\Scripts\SaveGame.cs" />

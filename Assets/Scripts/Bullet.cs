@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     {
         if (Player.gameObject.CompareTag("Bullet"))
         {
-            gameObject.GetComponent <PlayerHealth>().OnDamage(damage);
+            gameObject.GetComponent <Health>().OnDamage(damage);
         }
     }
 }

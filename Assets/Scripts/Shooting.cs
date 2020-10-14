@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour
         //shoot when spacebar is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
+            GameObject instBullet = Instantiate(bullet, transform.position, transform.rotation) as GameObject;
             Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
             instBulletRigidbody.velocity = (-transform.up * speed);
         }
