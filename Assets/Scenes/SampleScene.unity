@@ -2223,7 +2223,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 687476877}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &330544216
@@ -2535,7 +2534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 251517404}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &363516379
@@ -3703,7 +3701,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 557626433}
   distanceFromCenter: 500
   speed: 0.001
 --- !u!64 &578786143
@@ -4431,7 +4428,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 402895749}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &702346836
@@ -4599,7 +4595,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1100521920}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &710614520
@@ -5246,7 +5241,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1574104062}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &818054271
@@ -5478,7 +5472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 6270913583567869593}
   distanceFromCenter: 500
   speed: 0.001
 --- !u!64 &933551868
@@ -5645,13 +5638,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.8746435, y: -0, z: -0, w: 0.48476672}
-  m_LocalPosition: {x: 0, y: 5.930034, z: 4.950033}
+  m_LocalRotation: {x: 0.9046496, y: -0, z: -0, w: 0.4261563}
+  m_LocalPosition: {x: 0, y: 8.9, z: 10.4}
   m_LocalScale: {x: 0.01, y: 0.010000002, z: 0.010000002}
   m_Children: []
   m_Father: {fileID: 5006512734810386798}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 122.006, y: -0.000015258789, z: -0.000015258789}
+  m_LocalEulerAnglesHint: {x: 129.552, y: -0.000015258789, z: -0.000015258789}
 --- !u!114 &964818823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5666,7 +5659,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 306155143}
   distanceFromCenter: 500
   speed: 0.001
 --- !u!64 &964818824
@@ -6161,7 +6153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 2102052715}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &1070571254
@@ -6511,7 +6502,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 851310470}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &1153930744
@@ -7430,7 +7420,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 833293175}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &1370708704
@@ -7832,7 +7821,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1813970652}
   distanceFromCenter: 500
   speed: 0.001
 --- !u!64 &1425240715
@@ -8905,7 +8893,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1091617875}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &1663473792
@@ -14381,7 +14368,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1100112666}
   distanceFromCenter: 500
   speed: 0.001
 --- !u!64 &1899091642
@@ -15077,7 +15063,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   normaltarget: {x: 0, y: 0, z: 0}
-  warpObj: {fileID: 1108237280}
   distanceFromCenter: 500
   speed: 0.1
 --- !u!64 &2066552310

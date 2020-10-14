@@ -7,7 +7,6 @@ public class AIScripts : MonoBehaviour
     [SerializeField] Vector3 target;
     [SerializeField] Vector3 normaltarget;
     bool turning;
-    public GameObject warpObj;
     [SerializeField] int distanceFromCenter;
     [SerializeField] float speed;
 
@@ -63,17 +62,6 @@ public class AIScripts : MonoBehaviour
                 NewLocation = (Random.insideUnitSphere) * (distanceFromCenter - 100);
                 isInside = Physics.CheckSphere(NewLocation, transform.GetComponentInChildren<MeshCollider>().bounds.extents.magnitude);
             }
-            //rather than instantiate warp objects we just reuse existing ones
-
-            warpObj.transform.position = transform.position;
-            warpObj.GetComponent<ParticleSystem>().Play();
-            foreach (ParticleSystem p in warpObj.GetComponentsInChildren<ParticleSystem>())
-            {
-                p.Play();
-            }
-
-            transform.position = NewLocation;
-
         }
         else
         {
