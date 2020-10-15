@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 526187673753520505}
   - component: {fileID: 274186850605241122}
   - component: {fileID: 355415612774088248}
-  - component: {fileID: -5203802211093791988}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -89,21 +88,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2913340720319004870}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-5203802211093791988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2913340720319004870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d531e1de88858547bf9464356ce839c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Money: 50
